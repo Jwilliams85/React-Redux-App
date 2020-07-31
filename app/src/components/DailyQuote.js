@@ -31,7 +31,7 @@ const DailyQuote = (props) => {
 
 			{props.error && <p className="error">{props.error}</p>}
 
-			<button onClick={props.fetchQuote}>Get A New Quote</button>
+			<button onClick={props.fetchQuote} style= {{backgroundColor: 'black', color: 'red'}}>Get A New Quote</button>
 		</div>
 	);
 };
